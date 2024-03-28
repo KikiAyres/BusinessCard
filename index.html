@@ -1,67 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@400;500&family=Lobster&family=Lobster+Two&family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevLinks</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div id="conteiner">
-      <div id="profile">
-        <img 
-        src="./assets/avatarkiki.png" 
-        alt="Imagem de Kiki" />
-        <p>@cris-ayres</p>
-      </div>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
-      <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span></span>
-      </div>
-    
-      <ul>
-        <li>
-          <a href="./aboutme">About me</a>
-        </li>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevLinks</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-        <li>
-          <a href="CV-Cristine Silva Ayres.pdf">View my resume</a>
-        </li>
-
-        <li>
-          <a href="https://github.com/KikiAyres">View my portfolio</a>
-        </li>
-
-       
-      </ul>
-
-      <div id="social-links">
-        <a href="https://github.com/KikiAyres">
-         <ion-icon name="logo-github"></ion-icon></a>
-        <a href="https://www.instagram.com/cris.sa83/">
-         <ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="https://www.linkedin.com/in/cristine-ayres">
-         <ion-icon name="logo-linkedin"></ion-icon></a>
-      </div>
-      <footer>Made with <ion-icon name="heart"></ion-icon> por KikiAyres</a></footer>
+<body>
+  <div id="conteiner">
+    <div id="profile">
+      <img src="./assets/avatarkiki.png" alt="Imagem de Kiki" />
+      <p>@cris-ayres</p>
     </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="./script.js"></script>
-  </body>
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
+
+    <ul>
+      <li>
+        <a href="./aboutme">About me</a>
+      </li>
+
+      <li>
+        <a href="CV-Cristine Silva Ayres.pdf">View my resume</a>
+      </li>
+
+      <li>
+        <a href="https://github.com/KikiAyres">View my portfolio</a>
+      </li>
+
+
+    </ul>
+
+    <div id="social-links">
+      <a href="https://github.com/KikiAyres">
+        <ion-icon name="logo-github"></ion-icon></a>
+      <a href="https://www.instagram.com/cris.sa83/">
+        <ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="https://www.linkedin.com/in/cristine-ayres">
+        <ion-icon name="logo-linkedin"></ion-icon></a>
+    </div>
+    <footer>Made with <ion-icon id="heart" name="heart"></ion-icon> by KikiAyres</a></footer>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="./script.js"></script>
+</body>
+
 </html>
