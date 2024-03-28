@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 :root{
- font-size: 20px;
+  
 }
 
 body{
-  background: url(../assets/background.png) no-repeat center;
+  background: url(../assets/background.png) no-repeat center/cover;
 }
 
 body * {
@@ -79,4 +80,9 @@ p{
   flex-direction: column;
   justify-content: center;
   min-height: 100%;
+ }
+
+ @media (max-width: 700px){
+  #container{ flex-direction: column;}
+ .defaultDiv{width: 100%}
  }
