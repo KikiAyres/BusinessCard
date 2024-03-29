@@ -10,7 +10,7 @@
 }
 
 body{
-  background: url(../assets/background.png) no-repeat center/cover;
+  background: linear-gradient( to top, white, rgb(65, 3, 63)50%) no-repeat;
 }
 
 body * {
@@ -33,6 +33,10 @@ body * {
 .defaultDiv{
   width: 33%;
   padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
@@ -75,13 +79,6 @@ p{
   margin: 30px 30px;
  }
  
- #plans{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100%;
- }
-
  @media (max-width: 700px){
   #container{ flex-direction: column;}
  .defaultDiv{width: 100%}
