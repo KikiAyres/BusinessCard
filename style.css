@@ -43,7 +43,7 @@ body * {
 }
 
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 12px;               
 }
 
 body::-webkit-scrollbar-track {
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
   margin: 56px auto 0px;
 }
 
-/*profile*/
+
 #profile {
   text-align: center;
   padding: 24px;
@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 8px;
 }
 
-/*switch*/
+
 #switch {
   position: relative;
   width: 64px;
@@ -120,7 +120,7 @@ body::-webkit-scrollbar-thumb {
   animation: slide-in .2s forwards;
 }
 
-/*links*/
+
 ul {
   list-style: none;
   display: flex;
@@ -173,7 +173,7 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-/*footer*/
+
 footer {
   padding: 24px 0;
   text-align: center;
@@ -182,7 +182,7 @@ footer {
   color: var(--heart-color);
 }
 
-/*media queries*/
+
 
 @media (min-width: 700px){
   :root{
@@ -192,7 +192,7 @@ footer {
   --bg-color: linear-gradient( to right, rgb(171, 129, 177), white, rgb(171, 129, 177));
 }
 }
-/*animation*/
+
 @keyframes slide-in {
   from{
     left: 0;
